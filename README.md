@@ -1,2 +1,2 @@
 # Multi-Model-Chat-App
-LLM Project
+Multi-Model Support – Switch between GPT (OpenAI), Gemini (Google), and other LLMs.
