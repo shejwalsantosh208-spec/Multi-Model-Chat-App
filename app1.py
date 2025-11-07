@@ -83,9 +83,8 @@ def generate_response(prompt, image_file=None):
     except Exception as e:
         return f" Error: {str(e)}"
 
-# ------------------------------------------------
 # Main Interface
-# ------------------------------------------------
+
 st.markdown("### 💡 Ask anything — text or image-based reasoning supported!")
 
 if "messages" not in st.session_state:
@@ -122,3 +121,4 @@ for msg in st.session_state.messages:
 
 st.sidebar.markdown("---")
 st.sidebar.info("Built with ❤️ using Streamlit + LangChain + OpenRouter + Gemini")
+
